@@ -1,7 +1,6 @@
 .wrapper {
     margin: 0 auto;
     width: 80%;
-    height: 100vh;
     background-color: rgb(136, 135, 135);
 }
 
@@ -56,4 +55,31 @@
 .header__link:hover {
     background-color: rgb(19, 77, 21);
     transition: all 0.5s;
+}
+
+.main {
+    display: flex
+}
+
+.section,
+.section__item {
+    border: 1px solid black;
+    margin-left: 2%;
+}
+
+.section {
+    position: sticky;
+    padding: 15px;
+    top: 112px;
+    width: 25%;
+    height: 700px;
+}
+
+.section__item {
+    padding-top: 10px;
+    height: 200px;
+}
+
+.section--mod {
+    width: 69% ;
 }
