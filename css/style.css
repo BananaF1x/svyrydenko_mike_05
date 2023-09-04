@@ -62,7 +62,7 @@
 }
 
 .section,
-.section__item {
+.section__container {
     border: 1px solid black;
     margin-left: 2%;
 }
@@ -75,8 +75,8 @@
     height: 700px;
 }
 
-.section__item {
-    padding-top: 10px;
+.section__container {
+    margin-top: 12px;
     height: 200px;
 }
 
