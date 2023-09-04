@@ -18,7 +18,134 @@
         </header>
         <main class="main">
             <div class="section">
-
+                <h2 class="section__heading">Фільтри</h2>
+                <form class="section__form" method="post" action="https://fom.in.ua/echo">
+                    <label class="form__container">
+                        Марка:
+                        <select name="Model">
+                            <option value="BMW">
+                                BMW
+                            </option>
+                            <option value="Toyota">
+                                Toyota
+                            </option>
+                            <option value="Ford">
+                                Ford
+                            </option>
+                            <option value="Volksvagen">
+                                Volksvagen
+                            </option>
+                            <option value="Volvo">
+                                Volvo
+                            </option>
+                            <option value="Audi">
+                                Audi
+                            </option>
+                            <option value="Mitsubishi">
+                                Mitsubishi
+                            </option>
+                            <option value="Renaulte">
+                                Renaulte
+                            </option>
+                            <option value="Shkoda">
+                                Shkoda
+                            </option>
+                        </select>
+                    </label>
+                    <label class="form__container">
+                        Ціна:
+                        <select name="Price">
+                            <option value="0 - 1000$">
+                                0 - 1000$
+                            </option>
+                            <option value="1000$ - 2000$">
+                                1000$ - 2000$
+                            </option>
+                            <option value="2000$ - 3000$">
+                                2000$ - 3000$
+                            </option>
+                            <option value="3000$ - 5000$">
+                                3000$ - 5000$
+                            </option>
+                            <option value="5000$ - 10000$">
+                                5000$ - 10000$
+                            </option>
+                            <option value="10000$ - 50000$">
+                                10000$ - 50000$
+                            </option>
+                        </select>
+                    </label>
+                    <label class="form__container">
+                        Тип палива:
+                        <select name="Type of fuel">
+                            <option value="benzine">
+                                Бензин
+                            </option>
+                            <option value="diesel">
+                                Дизель
+                            </option>
+                            <option value="benzine/gas">
+                                Газ/Бензин
+                            </option>
+                        </select>
+                    </label>
+                    <label class="form__container">
+                        Трансмісія:
+                        <select name="transmission">
+                            <option value="mkpp">
+                                МКПП
+                            </option>
+                            <option value="akpp">
+                                АКПП
+                            </option>
+                        </select>
+                    </label>
+                    <label class="form__container">
+                        Місто:
+                        <select name="town">
+                            <option value="Kyiv">
+                                Київ
+                            </option>
+                            <option value="Kharkiv">
+                                Харків
+                            </option>
+                            <option value="Lviv">
+                                Львів
+                            </option>
+                            <option value="Poltava">
+                                Полтава
+                            </option>
+                            <option value="Sumy">
+                                Суми
+                            </option>
+                            <option value="Zaporizhzhia">
+                                Запоріжжя
+                            </option>
+                            <option value="Dnipro">
+                                Дніпрро
+                            </option>
+                        </select>
+                    </label>
+                    <label class="form__container">
+                        Рік випуску:
+                        <select name="Graduation year">
+                            <option value="bmw_e46">
+                                bmw
+                            </option>
+                        </select>
+                    </label>
+                    <label class="form__checkbox">
+                        Запамятати 
+                        <input type="checkbox" name="remember" value="yes">
+                    </label>
+                    <label class="form__checkbox">
+                        Запамятати 
+                        <input type="checkbox" name="remember" value="yes">
+                    </label>
+                    <button class="form__button" type="submit">
+                        Пошук
+                    </button>
+                </form>
             </div>
             <div class="section--mod">
                 <div class="__container">
