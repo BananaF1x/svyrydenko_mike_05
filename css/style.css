@@ -76,6 +76,7 @@
 }
 
 .section__container {
+    display: flex;
     margin-top: 12px;
     height: 200px;
 }
