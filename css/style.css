@@ -15,25 +15,29 @@ body {
     background-color: rgb(163, 163, 163);
 }
 
+/* 10 */
 .wrapper-mod {
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 /* 10 */
 .header {
-    padding-bottom: 10px;
     top: 0;
     border-radius: 0 0 10px 10px;
-    z-index: 1;
+}
+
+/* 10 */
+.header,
+.form__checkbox {
+    padding-bottom: 10px;
 }
 
 /* 10 */
 .header,
 .section {
     position: sticky;
-
 }
 
 /* 10 */
@@ -54,7 +58,8 @@ body {
 .header__link,
 .form__button,
 .footer,
-.container__link {
+.container__link,
+.item__link {
     color: azure;
 }
 
@@ -72,10 +77,11 @@ body {
 }
 
 /* 10 */
-.header__text {
+.header__text,
+.container__item,
+.footer__text--mod {
     margin: auto 0;
     color: rgb(163, 159, 159);
-    display: inline-block;
 }
 
 /* 10 */
@@ -85,6 +91,12 @@ body {
     border-radius: 5px;
     background-color: rgb(51, 126, 54);
     font-size: 1rem;
+}
+
+/* 10 */
+.item__link,
+.header__link,
+.form__button {
     text-decoration: none;
 }
 
@@ -129,7 +141,6 @@ body {
 .section,
 .footer {
     padding: 15px;
-
 }
 
 /* 10 */
@@ -146,14 +157,18 @@ body {
 .form__container select,
 /* 11 */
 .form__container input,
-.container__form input {
+.input-mod {
     width: 100%;
     height: 2rem;
     border-radius: 5px;
 }
 
+/* 11 */
+.container__form input {
+    margin: 10px 0;
+}
+
 /* 10 */
-.form__checkbox,
 .form__container {
     margin-bottom: 15px;    
 }
@@ -162,7 +177,8 @@ body {
 .form__checkbox,
 .form__container,
 .section__text,
-.container__link {
+.container__link,
+.container__item {
     display: block;
 }
 
@@ -179,7 +195,8 @@ body {
 
 /* 10 */
 .section__heading,
-.footer {
+.footer,
+.wrapper__container {
     text-align: center;
 }
 
@@ -188,6 +205,7 @@ body {
     width: 27%;
 }
 
+/* 11 */
 .section__photo img {
     width: 100%;
     height: 100%;
@@ -204,20 +222,27 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
+/* 10 */
 .wrapper__container {
-    margin: 0 auto;
     width: 30%;
     border-radius: 10px;
     padding: 10px 2%;
-    text-align: center;
 }
 
+/* 10 */
 .container__link {
     padding: 20px 0;
     font-size: 2rem;
     text-decoration: none;
 }
 
-.container__link:hover {
+/* 20 */
+.container__link:hover,
+.item__link:hover {
     color: rgb(206, 204, 204);
+}
+
+/* 10 */
+.container__item {
+    padding: 10px 0;
 }
