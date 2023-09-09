@@ -76,20 +76,6 @@
                         </select>
                     </label>
                     <label class="form__container">
-                        Тип палива:
-                        <select name="Type of fuel">
-                            <option value="benzine">
-                                Бензин
-                            </option>
-                            <option value="diesel">
-                                Дизель
-                            </option>
-                            <option value="benzine/gas">
-                                Газ/Бензин
-                            </option>
-                        </select>
-                    </label>
-                    <label class="form__container">
                         Трансмісія:
                         <select name="transmission">
                             <option value="mkpp">
@@ -143,6 +129,18 @@
                     <label class="form__container">
                         Рік випуску:
                         <input type="number" name="Graduation year">
+                    </label>
+                    <label class="form__radio">
+                        Бензин
+                       <input type="radio" name="fuel type" value="benzine">
+                    </label>
+                    <label class="form__radio">
+                        Газ
+                       <input type="radio" name="fuel type" value="gas">
+                    </label>
+                    <label class="form__radio">
+                        Дизель
+                       <input type="radio" name="fuel type" value="disel">
                     </label>
                     <label class="form__checkbox">
                         Запамятати фільтри 

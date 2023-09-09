@@ -165,7 +165,8 @@ body {
 /* 10 */
 .form__container input,
 .input-mod,
-.section__photo img {
+.section__photo img,
+.form__container select {
     width: 100%;
 }
 
@@ -177,6 +178,10 @@ body {
 /* 10 */
 .form__container {
     margin-bottom: 15px;    
+}
+
+.form__checkbox {
+    padding-top: 10px;
 }
 
 /* 10 */
