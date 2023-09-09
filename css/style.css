@@ -124,10 +124,7 @@ body {
 
 /* 10 */
 .section,
-.section__container,
-.footer,
-.header__link,
-.form__button {
+.section__container {
     border: 1px solid black;
 }
 
