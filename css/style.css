@@ -26,6 +26,7 @@ body {
 .header {
     top: 0;
     border-radius: 0 0 10px 10px;
+    z-index: 1;
 }
 
 /* 10 */
@@ -134,7 +135,7 @@ body {
 .section {
     top: 102px;
     width: 25%;
-    height: 600px;
+    height: fit-content;
 }
 
 /* 10 */
@@ -184,12 +185,18 @@ body {
     padding-top: 10px;
 }
 
+.form__radio,
+.form__checkbox {
+    white-space: nowrap;
+}
+
 /* 10 */
 .form__checkbox,
 .form__container,
 .section__text,
 .container__link,
-.container__item {
+.container__item,
+.section__photo img {
     display: block;
 }
 
@@ -213,12 +220,7 @@ body {
 
 /* 10 */
 .section__photo {
-    width: 27%;
-}
-
-/* 11 */
-.section__photo img {
-    height: 100%;
+    width: 40%;
 }
 
 /* 10 */
