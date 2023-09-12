@@ -171,6 +171,12 @@ body {
     width: 100%;
 }
 
+.input-mod,
+.form__container input,
+.form__container select {
+    padding-left: 2%;
+}
+
 /* 11 */
 .container__form input {
     margin: 10px 0;
@@ -201,7 +207,9 @@ body {
 }
 
 /* 10 */
-.section__text {
+.section__text,
+.form__container select,
+.form__container input {
     margin-top: 8px;
 }
 
